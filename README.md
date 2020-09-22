@@ -6,16 +6,14 @@ Server-side rendering renders the React components on the server. The output is 
 
 React can do both Server side rendering(SSR) and Client side rendering(CSR).
 
-React as CSR:
+React as CSR:<br />
 
-   import React from 'react';
-   import ReactDOM from 'react-dom';
-
+   import React from 'react';<br />
+   import ReactDOM from 'react-dom';<br />
    ReactDOM.render(<App />,document.getElementById('root'))
    
-React as SSR:
-   import React from 'react';
-   import ReactDOMServer from 'react-dom';
-
+React as SSR:<br />
+   import React from 'react';<br />
+   import ReactDOMServer from 'react-dom';<br />
    ReactDOMServer.renderToString(<App />,document.getElementById('root'))
 
